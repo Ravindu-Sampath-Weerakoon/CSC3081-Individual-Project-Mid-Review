@@ -1,6 +1,3 @@
-// Room with smoother FPS camera, horror lighting (flicker + spotlight + fog),
-// SOIL2 textures (floor, walls, ceiling, table, chairs, painting, Earth),
-// animation (bulb sway + rotating Earth), perspective/ortho, and antialiasing.
 
 #include <math.h>
 #include <glut.h>    // Use FreeGLUT for *Up callbacks
@@ -425,9 +422,12 @@ void drawTexturedEarth(float radius) {
 }
 
 // ---------------- Horror lights ----------------
-float g_flicker = 10;
+float g_flicker = 1.0;
 float computeFlicker(float t) {
-    float s = 0.5f * (sinf(7.0f * t) + sinf(13.0f * t + 1.3f));
+    //float s = 0.5f * (sinf(7.0f * t) + sinf(13.0f * t + 1.3f));
+    float s = 0.5f * sinf(3.5f * t) + sinf(6.5f * t + 1.3f);
+    //sinf(3.5f * t) + sinf(6.5f * t + 1.3f)
+
     float base = 0.75f + 0.25f * s; // 0.5..1.0
     float n = fractf(sinf(47.0f * t) * 125.0f);
     float drop = (n < 0.035f) ? 0.35f : 1.0f;  // occasional dip
