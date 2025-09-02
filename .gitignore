@@ -1,0 +1,39 @@
+# Visual Studio files and folders
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.pdb
+*.ilk
+*.aps
+*.ncb
+*.user
+*.tlog
+ipch/
+
+# CMake build files
+/build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.o
+*.a
+*.lib
+
+# Executables and object files
+*.exe
+*.obj
+*.out
+*.dll
+
+# External dependencies (since you are not adding them to the repo)
+/SOIL2/
+/glut/
+/glew/
+
+# Operating system files
+.DS_Store
+Thumbs.db
