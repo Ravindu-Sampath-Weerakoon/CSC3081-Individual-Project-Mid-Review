@@ -1,2 +1,5 @@
 ﻿  main.cpp
+soil2-debug.lib(image_DXT.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(image_DXT.obj)' or at 'D:\My University\CSC3081 Computer Graphics Programming\Project\Mid\Debug\soil2-debug.pdb'; linking object as if no debug info
+soil2-debug.lib(image_helper.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(image_helper.obj)' or at 'D:\My University\CSC3081 Computer Graphics Programming\Project\Mid\Debug\soil2-debug.pdb'; linking object as if no debug info
+soil2-debug.lib(SOIL2.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(SOIL2.obj)' or at 'D:\My University\CSC3081 Computer Graphics Programming\Project\Mid\Debug\soil2-debug.pdb'; linking object as if no debug info
   Mid.vcxproj -> D:\My University\CSC3081 Computer Graphics Programming\Project\Mid\Debug\Mid.exe
